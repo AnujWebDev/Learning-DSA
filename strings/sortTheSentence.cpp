@@ -7,7 +7,7 @@ using namespace std;
 //i want to sort the sentence according to the last number given in the words
 //the numbers always remains in 0-9 and output i want is me myself and i
 
-void sortTheSentence(string s1)
+string sortTheSentence(string s1)
 {
     string temp;
     vector<string> res(10);
@@ -40,7 +40,7 @@ void sortTheSentence(string s1)
         ans += res[i]+ ' ';
     }
     ans.pop_back();
-    cout<<ans;
+    return ans;
 }
 
 int main()
@@ -48,6 +48,6 @@ int main()
     string s1;
     cout << "Enter your String: ";
     getline(cin,s1);
-    sortTheSentence(s1);
+    cout<<sortTheSentence(s1);
     return 0;
 }
