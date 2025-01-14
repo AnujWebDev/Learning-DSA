@@ -20,7 +20,7 @@ void subSequence(int arr[], int index, int size, vector<vector<int>> &ans, vecto
 }
 
 int main() {
-    int arr[] = {1, 2, 3,4,5,6};
+    int arr[] = {3,4,5};
     vector<vector<int>> ans;
     vector<int> temp;
     int size = sizeof(arr) / sizeof(arr[0]);
