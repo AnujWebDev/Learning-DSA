@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+//This is approach for solving Predict the WInner in O(n2) Time 
 int Winner(vector<bool>&persons,int persons_left,int k,int index,int n){
     if(persons_left == 1){
         for(int i =0;i<persons.size();i++){
