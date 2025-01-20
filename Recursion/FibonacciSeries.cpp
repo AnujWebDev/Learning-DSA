@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//This code is used to print Fibonacci series by recursion
 int Fib(int N){
     if(N <= 1) return N;
     return Fib(N-1) + Fib(N-2);
