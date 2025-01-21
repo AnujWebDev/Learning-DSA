@@ -40,8 +40,8 @@ int main() {
 
     TotalWaysForRat(Matrix, 0, 0, Matrix.size(), path, ans, visited);
 
-    for (const string &p : ans) {
-        cout << p << endl;
+    for (int i = 0; i < ans.size();i++) {
+        cout << ans[i] << endl;
     }
 
     return 0;
