@@ -3,7 +3,7 @@
 #include <climits>
 using namespace std;
 
-//Find the second largest element in an array of unique elements of size n. Where n>3.
+//Find the second largest element in an array of unique elements of size n.
 
 int main(){
     int n;
