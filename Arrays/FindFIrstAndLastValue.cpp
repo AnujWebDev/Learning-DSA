@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//This Question is to find the Left most and Right Most Occurenced of given target by Binary search
 void searchRange(int arr[], int start, int end, vector<int>& temp, int target, int size) {
     int left = -1, right = -1;
     int low = start, high = end;
