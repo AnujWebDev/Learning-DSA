@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//This is For finding the Kth missing positive number from the given array
 int findKthPositive(int arr[], int k,int n) {
     int low  = 0, high = n - 1;
     while(low <= high){
