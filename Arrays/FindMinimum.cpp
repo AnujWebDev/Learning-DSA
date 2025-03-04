@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Finding Minimum in the rotated array
 int findMin(int nums[],int start,int end){
         int min_index=nums[0];
         while(start <= end){
