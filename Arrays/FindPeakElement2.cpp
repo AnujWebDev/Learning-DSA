@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//Find Peak Element 
 int findPeakElement(int nums[],int n) {
     int start = 0, end = n - 1, mid;
 
