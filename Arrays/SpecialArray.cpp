@@ -3,6 +3,7 @@
 #include <algorithm>
 using namespace std;
 
+//This is code for Findind Speacial Array
 // Function declaration before use
 int count(vector<int>& nums, int target);
 
