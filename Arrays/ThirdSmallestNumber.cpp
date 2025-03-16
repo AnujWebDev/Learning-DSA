@@ -2,7 +2,7 @@
 #include <climits>
 
 using namespace std;
-
+//This is code snippet For Finding Third Smallest number
 void ThirdSmallestNumber(int arr[],int size){
     int smallest = INT_MAX, second = INT_MAX,third= INT_MAX;
     for(int i = 0; i < size; i++){
