@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//This code is for Finding Smallest positive missing Number
 int MissingSmallestNumber(int arr[],int size){
     int num = 1;
     for(int i = 0;i < size;i++){
