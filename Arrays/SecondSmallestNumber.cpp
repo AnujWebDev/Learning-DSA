@@ -2,7 +2,7 @@
 #include <climits>
 
 using namespace std;
-
+//This is to find Second Smallest Number present inside the array
 void secondSmallestNumber(int arr[],int size){
     int smallest = INT_MAX, second = INT_MAX;
     for(int i = 0; i < size; i++){
