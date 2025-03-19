@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//This Code snippet is Used For Reverse an Array
 void reverseAnArray(int arr[],int size){
     int start = 0, end = size-1;
     while(start < end){
