@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//This Code is To find Peak Element In the mountain Array
 int FindPeakElement(int arr[],int start,int end){
     while(start < end){
         int mid = start + (end-start)/2;
