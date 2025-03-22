@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//This  is code snippet For RotateAnArray By 1
 int main(){
     int arr[1000];
     int n;
