@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//This code is to move all negetive numbers to end
 void MoveAllNegativeNumberToEnd(int arr[], int size, vector<int>& ans) {
     int index = 0;
     for (int i = 0; i < size; i++) {
