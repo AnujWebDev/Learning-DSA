@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//This will Find the number of Occurences
+//This will Find the number of Occurences from the given array
 int CountTheNumbers(int arr[],int size,int num1,int num2){
     int first = 0,second = 0;
     //First Occurence
